@@ -93,3 +93,7 @@ p {
   font-size: 1em;
   padding: 10px 0 10px 0;
 }
+
+.float-right {
+  float: right !important;
+}
