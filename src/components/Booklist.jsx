@@ -78,7 +78,7 @@ useEffect(()=>{axios.get('http://localhost:5001/books/')
                     <h2 className='display-4 text-center'>Books List</h2>
                 </div>
                 <div className='col-md-11'>
-                    <Link to='/add' className='btn btn-outline-warning float-right'>
+                    <Link to='/add' className='btn btn-info float-right'>
                         + Add New Book
                     </Link>
                     <br />
