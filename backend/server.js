@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 //make app-port-what the app uses
+//DB URL provided and used below
 const app = express();
 const port = process.env.PORT || 5001;
 

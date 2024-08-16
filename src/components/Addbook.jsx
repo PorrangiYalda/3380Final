@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
+//deployed URL: https://3380-final-gve1.vercel.app/
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Addbook() {
     const [book, setBook] = useState({ bookTitle: '', bookAuthor: '', description: '' });
